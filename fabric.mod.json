@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "visualspack",
+  "version": "${version}",
+  "name": "VisualsPack",
+  "description": "Chinese hat, free camera, elytra alert visuals.",
+  "authors": ["Codexe"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [ "eu.codexe.visualspack.client.VisualsPackClient" ],
+    "main": [ "eu.codexe.visualspack.VisualsPack" ]
+  },
+  "mixins": [ "visualspack.mixins.json" ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}

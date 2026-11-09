@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "eu.codexe.visualspack.client.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "CameraMixin",
+    "PlayerHeadMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
